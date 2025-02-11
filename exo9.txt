@@ -1,0 +1,13 @@
+Algorithme exo9
+variable
+    n, i : entier
+Début
+	afficher("veuiller saisir un nombre N = ");
+   lire(n);
+
+    pour i  de 1 à n faire
+        si (i % 2 = 0) alors
+            afficher(" ", i,"\n");
+        finsi
+    finpour
+Fin

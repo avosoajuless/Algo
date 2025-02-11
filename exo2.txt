@@ -1,0 +1,18 @@
+Algorithme exo2
+variable
+    n,m : entier
+Début
+	    
+    afficher("veuiller saisir un nombre n = ");
+    lire(n);
+    afficher("veuiller saisir un nombre m = ");
+    lire(m);
+
+    si ((n < 0 et m > 0) ou (n > 0 et m < 0)) alors
+        afficher("le produit des deux nombres est negatif\n");
+
+    sinon
+        afficher("le produit des deux nombres est positif\n");
+    finsi
+
+Fin

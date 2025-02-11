@@ -1,0 +1,13 @@
+Algorithme exo8
+variable
+    n, i : entier
+Début
+	  afficher("veuiller saisir le nombre N =");
+    lire(n);
+    afficher("les nombres de 1 jusqu'a",n," sont: \n");
+    
+    pour i de 1 à  n faire
+        afficher(" ", i,"\n");
+    finpour
+
+Fin

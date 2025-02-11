@@ -1,0 +1,23 @@
+Algorithme exo18
+variable
+    a, b, r, c : entier
+Début
+	  afficher("veuiller saisir un nombre a = ");
+    lire(a);
+    afficher("veuiller saisir un nombre b = ");
+    lire(b);
+
+    répéter
+            r <-  a % b;
+            c <- a / b ;
+            si (r <> 0) alors
+                 a <- b;
+                 b <- r;
+            finsi
+          
+    jusqua ( r = 0)
+    
+
+    afficher("le PGCD de a et b est ", b);
+
+Fin

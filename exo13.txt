@@ -1,0 +1,16 @@
+Algorithme exo13
+variable
+    i, s, n : entier
+Début
+	 afficher("veuiller saisir un nombre n=");
+    lire(n);
+
+    s <- 1;
+    
+    pour  i de 1 à  n faire
+        s <- s * i;
+    finpour
+    
+    afficher("la multiplication de 1 jusqu'à ",n," est ",s);
+
+Fin

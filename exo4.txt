@@ -1,0 +1,15 @@
+Algorithme exo4
+variable
+    note_a,note_b,som,moy : réels
+Début
+	 
+    afficher("veuiller saisir votre note A =");
+    lire(note_a);
+    afficher("veuiller saisir votre note B =");
+    lire(note_b);
+
+    som <- note_a + note_b;
+    moy <- som / 2;
+
+    afficher("la somme de votre notes est ",som," et leur moyenne est ",moy);
+Fin

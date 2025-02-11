@@ -1,0 +1,47 @@
+Algorithme exo5
+variable
+    a,b,c,delta,x,x1,x2,m,n,p : réels
+Début
+	 
+    afficher("veuiller saisir le coefficient a= ");
+    lire(a);
+    afficher("veuiller saisir le coefficient b= ");
+    lire(b);
+    afficher("veuiller saisir le coefficient c= ");
+    lire(c);
+
+    delta <- (b * b) - (4 * a * c);
+
+    si (a = 0) alors
+        si (b = 0) alors
+            afficher("c'est impossible");
+        sinon
+            afficher("c'est une equation du premier  degré");
+            x <- -c / b;
+            affiche(" de solution x = ", x);
+        finsi
+    finsi
+
+    si (a > 0) alors
+        si (delta == 0) alors
+            x <- -b / (2 * a);
+            afficher("la solution de l'equation est x = ", x);
+        
+        sinon si (delta > 0) alors
+            x1 <- (-b + sqrt(delta)) / (2 * a);
+            x2 <- (-b - sqrt(delta)) / (2 * a);
+            afficher("l'equation admet deux solutions x1= ", x1);
+            afficher(" et x2= ", x2);
+                   
+                   sinon
+                        m <- -b / (2 * a);
+                        n <- sqrt(-delta) / (2 * a);
+                        p <- -sqrt(-delta) / (2 * a);
+                        afficher("on a deux solution x1= ", m," + ", n ,"i et x2 = ", m ," ", p ,"i");
+                   finsi
+        
+        finsi
+    
+    finsi
+
+Fin

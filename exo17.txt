@@ -1,0 +1,19 @@
+Algorithme exo17
+variable
+     n, som, a : réel
+     i : entier
+Début
+	  afficher("veuiller saisir un nombre N =");
+    lire(n);
+
+    som <- 0;
+    a <- 1;
+    
+    pour i de 1 à n faire
+        a <- a * i;
+        som <- som + (1 / a);
+   finpour
+
+    afficher("la somme est : ", som);
+
+Fin

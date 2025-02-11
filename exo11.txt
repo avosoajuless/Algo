@@ -1,0 +1,15 @@
+Algorithme exo11
+variable
+    n, i, fact : entier
+Début
+	 afficher("veuiller saisir un nombre N = ");
+    lire(n);
+
+    fact <- 1;
+    pour  i de  n à 1 pas -1 faire
+        fact <- fact * i;
+    finpour
+    
+    afficher("le factoriel de ",n," est ",fact);
+
+Fin

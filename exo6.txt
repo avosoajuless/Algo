@@ -1,0 +1,20 @@
+Algorithme exo6
+variable
+    note_a, note_b, coef_a, coef_b, moy, som_c, som_n : réels
+Début
+    afficher("veuiller saisir la note A =");
+    lire(note_a);
+    afficher("veuiller saisir la note B =");
+    lire(note_b);
+    afficher("veuiller saisir la coefficient de la note A =");
+    lire(coef_a);
+    afficher("veuiller saisir la coefficient de la note B =");
+    lire(coef_b);
+
+    som_c <- coef_a + coef_b;
+    som_n <- (note_a * coef_a) + (note_b * coef_b);
+    moy <- som_n / som_c;
+
+    afficher("votre moyenne est ", moy);
+
+Fin

@@ -1,0 +1,21 @@
+Algorithme signe_d_un_nombre
+Variable n : entier
+
+Début
+
+    afficher("veuiller saisir un nombre n = ");
+    lire(n);
+    si (n < 0) alors
+        afficher("le nombre est negatif");
+    
+
+        sinon si (n > 0) alors
+            afficher("le nombre est positif");
+    
+
+                   sinon    
+                        afficher("le nombre est nul");
+                   finsi
+    finsi
+
+Fin

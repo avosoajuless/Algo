@@ -1,0 +1,14 @@
+Algorithme exo15
+variable
+    i, m, s, n : entier
+Début
+	  afficher("veuiller saisir un nombre n =");
+    lire(n);
+    s <- 1;
+    pour i de 1 à  n faire
+        m <- 10 ^ i
+        s <- s + m;
+    finpour
+
+    afficher("la somme est ", s);
+Fin

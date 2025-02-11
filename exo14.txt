@@ -1,0 +1,15 @@
+Algorithme exo14
+variable
+    a , som : réel
+    i : entier
+Début
+    afficher("saisir un nombre : ");
+    lire(a);
+    som <- 0;
+    pour i de  1 à  a faire
+        som <-  som + (1/i);
+    finpour
+
+    afficher("la somme est  ", som);
+	
+Fin

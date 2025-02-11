@@ -1,0 +1,17 @@
+Algorithme exo10
+variable
+    n, i : entier
+Début
+	  afficher("veuiller saisir un nombre N = ");
+    lire(n);
+    afficher("les diviseurs de ",n," sont : \n");
+    
+    pour i de 1 à  n faire
+       
+        si (n % i = 0) alors
+            afficher(i,"\n");
+        finsi
+    
+    finpour
+
+Fin

@@ -1,0 +1,17 @@
+Algorithme exo3
+variable
+    a,b,c : entier
+Début
+	  
+    afficher(" veuiller saisir un nombre A = ");
+    lire(a);
+    afficher(" veuiller saisir un nombre B = ");
+    lire(b);
+
+    c <- a;
+    a <- b;
+    b <- c;
+
+    afficher("la valeur echangee est A=",a," et B=",b);
+
+Fin

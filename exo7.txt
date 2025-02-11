@@ -1,0 +1,22 @@
+Algorithme exo7
+variable
+     a, b, c : entier
+Début
+	 afficher("veuiller saisir le nombre a =");
+    lire(a);
+    afficher("veuiller saisir le nombre b =");
+    lire(b);
+    afficher("veuiller saisir le nombre c =");
+    lire(c);
+
+    si (a > b && a > c) alors
+        afficher("le maximum est ", a);
+
+    sinon si (b > a && b > c) alors
+        afficher("le maximum est ", b);
+               
+               sinon
+                    afficher("le maximum est ", c);
+               finsi
+    finsi
+Fin
